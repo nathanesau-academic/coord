@@ -1,0 +1,12 @@
+Package: coord
+Title: Sample Coordination in R
+Version: 1.0
+Authors@R: person("Nathan", "Esau", , "nesau@sfu.ca", role = c("aut", "cre","ctb"))
+Description: Performs Negative Sample Coordination in R using several
+    statistical coordination methods based on the permutation of Uniform Random
+    Numbers.
+Depends:
+    R (>= 3.1.1)
+License: GPL-2
+LazyData: true
+RoxygenNote: 5.0.1

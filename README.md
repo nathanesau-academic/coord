@@ -7,6 +7,7 @@ Sample coordination in R
 2. Try out the sample script below to get started.
 
 ```R
+library(coord)
 set.seed(10)
 SurveyData.Assign (projdir, "~/Documents/Jupyter/Coordination")
 RunSimulation (FrameNames = rep(c("SampleFrame1","SampleFrame2"), 5),

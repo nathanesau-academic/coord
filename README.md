@@ -17,3 +17,7 @@ RunSimulation (FrameNames = rep(c("SampleFrame1","SampleFrame2"), 5),
                CoordinationMethods = c("Microstrata", "GlobalNegative", "Cotton-Hesse", "None"))
 CompareBurdens (SurveyData.Get (CumulativeBurden))
 ```
+
+This should produce some output like the following:
+
+![output](https://raw.githubusercontent.com/nathanesau-academic/coord/master/sample_output.png)
